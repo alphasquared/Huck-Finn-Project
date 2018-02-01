@@ -1,62 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2"
- xmlns:gx="http://www.google.com/kml/ext/2.2">
-
-<Document>
-  <name>gx:AnimatedUpdate example</name>
-
-  <Style id="pushpin">
-    <IconStyle id="mystyle">
-      <Icon>
-        <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-        <scale>1.0</scale>
-      </Icon>
-    </IconStyle>
-  </Style>
-
-  <Placemark id="CairoIL">
-    <name>Pin on a mountaintop</name>
-    <styleUrl>#pushpin</styleUrl>
-    <Point>
-      <coordinates>37.0053,89.1765,0</coordinates>
-    </Point>
-  </Placemark>
- 
-  <gx:Tour>
-    <name>Play me!</name>
-
-    <gx:Playlist>
-
-      <gx:FlyTo>
-        <gx:flyToMode>bounce</gx:flyToMode>
-        <gx:duration>3</gx:duration>
-        <Camera>
-          <longitude>170.157</longitude>
-          <latitude>-43.671</latitude>
-          <altitude>9700</altitude>
-          <heading>-6.333</heading>
-          <tilt>33.5</tilt>
-        </Camera>
-      </gx:FlyTo>
-
-      <gx:AnimatedUpdate>
-        <gx:duration>5</gx:duration>
-        <Update>
-          <targetHref></targetHref>
-          <Change>
-            <IconStyle targetId="mystyle">
-              <scale>10.0</scale>
-            </IconStyle>
-          </Change>
-        </Update>
-      </gx:AnimatedUpdate>
-
-      <gx:Wait>
-        <gx:duration>5</gx:duration>
-      </gx:Wait>
-
-    </gx:Playlist>
-  </gx:Tour>
-
-</Document>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Huckleberry Finn Map</name>
+    <description><![CDATA[This map traces the odyssey of Huck and Jim on the Mississippi River in Mark Twain's novel. Use satellite view to see the features best. Sites from the text have blue markers. Related sites are marked with yellow push pins. Complete text is available online at Project Gutenberg.]]></description>
+    <Style id="icon-168-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-168-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-168">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-168-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-168-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>St. Petersburg, MO</name>
+        <description><![CDATA[Chapter 1: The town where the novel begins is St. Petersburg, which is a fictional place based on Twain's boyhood town of Hannibal, MO. The present-day Hannibal has made a museum of Twain's boyhood home, and has a riverboat tour that points out Jackson's Island. Here is another map (http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=106763612444785450208.00044262e3a4dbbf5bc21&ll=40.128491,-90.351562&spn=11.552871,20.01709&z=6&om=1) of the town.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.37611,39.70355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Jackson's Island]]></name>
+        <description><![CDATA[Chapter 7: Huck camps for several days on this island and meets Jim there. They find a raft, investigate a floating house, and head downriver. This island is credited in an 1899 article (http://etext.virginia.edu/railton/tomsawye/nostalgia/99harpers.html) as being the inspiration for Twain's Jackson's Island. Tours on the Mark Twain Riverboat (http://www.marktwainriverboat.com/) also name this as Jackson's Island. The text states that "... the island was only three miles long and a quarter of a mile<br>wide." Erosion has probably changed the shape of the island.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.33486,39.706675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Pap's Shanty]]></name>
+        <description><![CDATA[Chapter 5: Huck's father kidnaps him from the widow and imprisons him in a small log house with a dirt floor about a mile upriver and on the opposite shore from St. Petersburg. There is no known evidence other than the text that this is the location.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.364815,39.731218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Wreck of the Walter Scott</name>
+        <description><![CDATA[Chapter 12: On the fifth night after passing St. Louis Jim and Huck encounter a wrecked steamboat during a storm. Earlier in the Chapter Huck says, "we run between seven and eight hours, with a current that was making over four mile an hour." According to that daily distance of 30 miles that would place the wreck somewhere in this area.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.464974,37.226399,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Louis, MO</name>
+        <description><![CDATA[Chapter 12: Five days after leaving Jackson Island Huck and Jim pass St. Louis. "...it was like the whole world was lit up."]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.184021,38.608822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cairo, IL</name>
+        <description>Chapter 15: Jim and Huck were looking for Cairo, IL and the mouth of the Ohio River. There they planned to sell the raft and travel by steamboat up the Ohio into the free states, possibly to Cincinnati.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.13826,36.982809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Royal Nonesuch</name>
+        <description><![CDATA[Chapter 21: "Well down into Arkansas" Huck, Jim, the King and the Duke  find a "little one-horse town in a big bend" for their Shakespeare performance. But before they stage their show, Huck  sneaks into a circus, witnesses a murder, a near lynching. When their show does not draw an audience, the Duke and King perform their "Royal Nonesuch."]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -89.763794,35.887937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Wilkses</name>
+        <description>Chapter 24: Two days below the Royal Nonesuch site, the King and the Duke tie up on a towhead between two villages, such as this spot between Redman Point, AK and Benjestown, TN. The duke goes to the Arkansas side, and the king to the Tennessee side, where he conned the Wilks family.</description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -90.08317,35.241063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Phelps Farm</name>
+        <description><![CDATA[Chapter 31: After working cons in the villages along the river, The rafters finally anchor two miles below Pikesville near the Phelps "one-horse plantation." While no Pikesville exists, a clue near the end of Chapter 31 places the town in Louisiana, 40 miles west of a road to Lafayette. Morganza, LA fits that description. This is where Jim meets his destiny and the novel is concluded.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -91.565552,30.72472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
 </kml>
