@@ -1,228 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
-    <name>Huckleberry Finn Map</name>
-    <description><![CDATA[This map traces the odyssey of Huck and Jim on the Mississippi River in Mark Twain's novel. Use satellite view to see the features best. Sites from the text have blue markers. Related sites are marked with yellow push pins. Complete text is available online at Project Gutenberg.]]></description>
-    <Style id="icon-168-normal">
-      <IconStyle>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
-        </Icon>
-        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-168-highlight">
-      <IconStyle>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
-        </Icon>
-        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-168">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-168-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-168-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-22-normal">
-      <IconStyle>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-22-highlight">
-      <IconStyle>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-22">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-22-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-22-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Folder>
-      <name>Untitled layer</name>
-      <Placemark>
-        <name>Hannibal, MO</name>
-        <description><![CDATA[Chapter 1: The town where the novel begins is St. Petersburg, which is a fictional place based on Twain's boyhood town of Hannibal, MO. The present-day Hannibal has made a museum of Twain's boyhood home, and has a riverboat tour that points out Jackson's Island. Here is another map (http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=106763612444785450208.00044262e3a4dbbf5bc21&ll=40.128491,-90.351562&spn=11.552871,20.01709&z=6&om=1) of the town.]]></description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            39.7084,91.3585,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Jackson's Island</name>
-        <description><![CDATA[Chapter 7: Huck camps for several days on this island and meets Jim there. They find a raft, investigate a floating house, and head downriver. This island is credited in an 1899 article (http://etext.virginia.edu/railton/tomsawye/nostalgia/99harpers.html) as being the inspiration for Twain's Jackson's Island. Tours on the Mark Twain Riverboat (http://www.marktwainriverboat.com/) also name this as Jackson's Island. The text states that "... the island was only three miles long and a quarter of a mile<br>wide." Erosion has probably changed the shape of the island.]]></description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            81.3011,56.9555,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>St. Louis, MO</name>
-        <description><![CDATA[Chapter 5: Huck's father kidnaps him from the widow and imprisons him in a small log house with a dirt floor about a mile upriver and on the opposite shore from St. Petersburg. There is no known evidence other than the text that this is the location.]]></description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            38.6270,90.1994,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Bainbridge, MO</name>
-        <description><![CDATA[Chapter 12: On the fifth night after passing St. Louis Jim and Huck encounter a wrecked steamboat during a storm. Earlier in the Chapter Huck says, "we run between seven and eight hours, with a current that was making over four mile an hour." According to that daily distance of 30 miles that would place the wreck somewhere in this area.]]></description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            37.4106,89.4370,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Thebes, IL</name>
-        <description><![CDATA[Chapter 12: Five days after leaving Jackson Island Huck and Jim pass St. Louis. "...it was like the whole world was lit up."]]></description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            37.2209,89.4609,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Columbus, KY</name>
-        <description>Chapter 15: Jim and Huck were looking for Cairo, IL and the mouth of the Ohio River. There they planned to sell the raft and travel by steamboat up the Ohio into the free states, possibly to Cincinnati.</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            36.7598,89.1034,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Hickman, KY</name>
-        <description><![CDATA[Chapter 21: "Well down into Arkansas" Huck, Jim, the King and the Duke  find a "little one-horse town in a big bend" for their Shakespeare performance. But before they stage their show, Huck  sneaks into a circus, witnesses a murder, a near lynching. When their show does not draw an audience, the Duke and King perform their "Royal Nonesuch."]]></description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            36.5712,89.1862,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>New Madrid, MO</name>
-        <description>Chapter 24: Two days below the Royal Nonesuch site, the King and the Duke tie up on a towhead between two villages, such as this spot between Redman Point, AK and Benjestown, TN. The duke goes to the Arkansas side, and the king to the Tennessee side, where he conned the Wilks family.</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            36.5864,89.5279,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Walnut Bend, AR</name>
-        <description>Chapter 24: Two days below the Royal Nonesuch site, the King and the Duke tie up on a towhead between two villages, such as this spot between Redman Point, AK and Benjestown, TN. The duke goes to the Arkansas side, and the king to the Tennessee side, where he conned the Wilks family.</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            34.7713,90.8294,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Napoleon, AR</name>
-        <description>Chapter 24: Two days below the Royal Nonesuch site, the King and the Duke tie up on a towhead between two villages, such as this spot between Redman Point, AK and Benjestown, TN. The duke goes to the Arkansas side, and the king to the Tennessee side, where he conned the Wilks family.</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            33.797,91.074,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Greenville, MS</name>
-        <description>Chapter 24: Two days below the Royal Nonesuch site, the King and the Duke tie up on a towhead between two villages, such as this spot between Redman Point, AK and Benjestown, TN. The duke goes to the Arkansas side, and the king to the Tennessee side, where he conned the Wilks family.</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            33.3997,91.0377,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Grand Lake Landing</name>
-        <description>Chapter 24: Two days below the Royal Nonesuch site, the King and the Duke tie up on a towhead between two villages, such as this spot between Redman Point, AK and Benjestown, TN. The duke goes to the Arkansas side, and the king to the Tennessee side, where he conned the Wilks family.</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            39.3743,76.7225,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Baton Rouge</name>
-        <description>Chapter 24: Two days below the Royal Nonesuch site, the King and the Duke tie up on a towhead between two villages, such as this spot between Redman Point, AK and Benjestown, TN. The duke goes to the Arkansas side, and the king to the Tennessee side, where he conned the Wilks family.</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            30.4583,91.1403,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>New Orleans</name>
-        <description>Chapter 24: Two days below the Royal Nonesuch site, the King and the Duke tie up on a towhead between two villages, such as this spot between Redman Point, AK and Benjestown, TN. The duke goes to the Arkansas side, and the king to the Tennessee side, where he conned the Wilks family.</description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            29.9511,90.0715,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Memphis, TN</name>
-        <description><![CDATA[Chapter 31: After working cons in the villages along the river, The rafters finally anchor two miles below Pikesville near the Phelps "one-horse plantation." While no Pikesville exists, a clue near the end of Chapter 31 places the town in Louisiana, 40 miles west of a road to Lafayette. Morganza, LA fits that description. This is where Jim meets his destiny and the novel is concluded.]]></description>
-        <styleUrl>#icon-22</styleUrl>
-        <Point>
-          <coordinates>
-            35.1495,90.0490,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-  </Document>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Hannibal</name>
+	<Style id="__managed_style_250D175E37029388C6AD">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://earth.google.com/clientassets/pin_myplaces_selected_128px.png</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<gx:displayMode>card</gx:displayMode>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.8</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c000000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="__managed_style_17D7BB0397029388C6AD">
+		<IconStyle>
+			<Icon>
+				<href>https://earth.google.com/clientassets/pin_myplaces_selected_128px.png</href>
+			</Icon>
+			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<gx:displayMode>card</gx:displayMode>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>1.2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c000000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="__managed_style_0EE442986E029388C6AD">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_17D7BB0397029388C6AD</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_250D175E37029388C6AD</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="03D7D986EB029388C6AA">
+		<name>Hannibal</name>
+		<gx:mid>/m/013h3h</gx:mid>
+		<gx:fid>0x87dde8a4093156f5:0x9a8b4e4e76ebaa3c</gx:fid>
+		<LookAt>
+			<longitude>-91.391685</longitude>
+			<latitude>39.7128634</latitude>
+			<altitude>173.3174720655587</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>19403.15474644268</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-91.35848159999998,39.7083789,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
 </kml>
