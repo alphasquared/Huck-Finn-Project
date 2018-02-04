@@ -2,6 +2,19 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Huckleberry Finn Project</name>
+    <description><![CDATA[
+        <font size=5
+        INTRODUCTION HERE
+        ]]></description>
+    <LookAt>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <longitude>-89.672992</longitude>
+        <latitude>36.473379</latitude>
+        <altitude>0</altitude>
+        <tilt>60</tilt>
+        <range>1000000</range>
+    </LookAt>
+
 	<Style id="__managed_style_250D175E37029388C6AD">
 		<IconStyle>
 			<scale>1.2</scale>
@@ -53,30 +66,557 @@
 			<styleUrl>#__managed_style_250D175E37029388C6AD</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Placemark id="03D7D986EB029388C6AA">
-		<name>Hannibal</name>
+    
+    
+    
+    <!-- Animation -->
+    <gx:Tour>
+        <name>Play</name>
+        <gx:Playlist>
+            
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-91.391685</longitude>
+                    <latitude>39.7128634</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin1">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>6.0</gx:duration>
+                <LookAt>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <latitude>39.706685</latitude>
+                    <longitude>-91.334893</longitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin2">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>8.0</gx:duration>
+                <LookAt>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <latitude>38.632066</latitude>
+                    <longitude>-90.184636</longitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin3">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>8.0</gx:duration>
+                <LookAt>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <latitude>37.417432</latitude>
+                    <longitude>-89.430088</longitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin4">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>7.0</gx:duration>
+                <LookAt>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                    <latitude>37.221216</latitude>
+                    <longitude>-89.461014</longitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin5">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-89.4465695</longitude>
+                    <latitude>37.1584035</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin6">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-89.18286499999999</longitude>
+                    <latitude>37.029583</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin7">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-89.101574</longitude>
+                    <latitude>36.7591091</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin8">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-89.1830755</longitude>
+                    <latitude>36.5609319</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin9">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-89.55061599999999</longitude>
+                    <latitude>36.584209</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin10">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-89.970787</longitude>
+                    <latitude>35.129186</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin11">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-90.57010489999999</longitude>
+                    <latitude>34.7275987</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin12">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-91.074</longitude>
+                    <latitude>33.797</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin13">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-91.06013039999999</longitude>
+                    <latitude>33.3934975</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin14">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-91.1817126</longitude>
+                    <latitude>33.6297472</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin15">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-91.11141859999999</longitude>
+                    <latitude>30.441474</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin16">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+            <gx:FlyTo>
+                <gx:duration>5.0</gx:duration>
+                <!-- bounce is the default flyToMode -->
+                <LookAt>
+                    <longitude>-89.8825634</longitude>
+                    <latitude>30.0329964</latitude>
+                    <altitude>0</altitude>
+                    <heading>0</heading>
+                    <tilt>30</tilt>
+                    <range>5000</range>
+                    <altitudeMode>relativeToGround</altitudeMode>
+                </LookAt>
+            </gx:FlyTo>
+            
+            <gx:AnimatedUpdate>
+                <gx:duration>0.0</gx:duration>
+                <Update>
+                    <targetHref/>
+                    <Change>
+                        <Placemark targetId="pin17">
+                            <gx:balloonVisibility>1</gx:balloonVisibility>
+                        </Placemark>
+                    </Change>
+                </Update>
+            </gx:AnimatedUpdate>
+            
+            <gx:TourControl>
+                <gx:playMode>pause</gx:playMode>
+            </gx:TourControl>
+            
+        </gx:Playlist>
+    </gx:Tour>
+
+    <!-- Placemarks -->
+    
+    
+    <!-- Hannibal, MO -->
+	<Placemark id="pin1">
+		<name>St. Petersburg, MO</name>
 		<gx:mid>/m/013h3h</gx:mid>
 		<gx:fid>0x87dde8a4093156f5:0x9a8b4e4e76ebaa3c</gx:fid>
+        <description><![CDATA[<font size=10>
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-91.391685</longitude>
 			<latitude>39.7128634</latitude>
-			<altitude>173.3174720655587</altitude>
+			<altitude>150</altitude>
 			<heading>0</heading>
 			<tilt>0</tilt>
 			<gx:fovy>30</gx:fovy>
-			<range>19403.15474644268</range>
+			<range>900</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.35848159999998,39.7083789,0</coordinates>
+			<coordinates>-91.391685,39.7128634,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="0AE3358AD402938A7FD8">
+    
+    <!-- Pearl's Island -->
+	<Placemark id="pin2">
 		<name>Jackson&apos;s Island</name>
 		<gx:mid>/g/1v8gcl6n</gx:mid>
 		<gx:fid>0x87dde6ec270c0fcf:0x35f35f9a29911e4f</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-91.3182266</longitude>
 			<latitude>39.6999868</latitude>
@@ -93,10 +633,15 @@
 			<coordinates>-91.3182266,39.6999868,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="0EA6151EAE02938ACFC1">
-		<name>St Louis</name>
+	<Placemark id="pin3">
+		<name>St. Louis, MO</name>
 		<gx:mid>/m/06wxw</gx:mid>
 		<gx:fid>0x87d8b4a9faed8ef9:0xbe39eaca22bbe05b</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-90.24346199999999</longitude>
 			<latitude>38.6531004</latitude>
@@ -110,13 +655,20 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-90.19940419999999,38.6270025,0</coordinates>
+			<coordinates>90.24346199999999,38.6531004,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="0F237DD0CC02938B1856">
-		<name>Bainbridge</name>
+    
+    <!-- Bainbridge, MO -->
+	<Placemark id="pin4">
+		<name>Wreck of the Walter Scott</name>
 		<gx:mid>/m/04b1sw1</gx:mid>
 		<gx:fid>0x887783b327cc8707:0x88d263046d4ec679</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-89.43703599999999</longitude>
 			<latitude>37.4106048</latitude>
@@ -130,13 +682,18 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.43703599999999,37.4106053,0</coordinates>
+			<coordinates>-89.43703599999999,37.4106048,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="046FE8AC9702938C0BE2">
-		<name>Thebes</name>
+	<Placemark id="pin5">
+		<name>Thebes, IL</name>
 		<gx:mid>/m/0s2_t</gx:mid>
 		<gx:fid>0x8879d4ad5aa83299:0x2a6e960bc9470c97</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-89.45420249999999</longitude>
 			<latitude>37.2074534</latitude>
@@ -150,13 +707,18 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.46092089999999,37.2208838,0</coordinates>
+			<coordinates>-89.45420249999999,37.2074534,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="0FAC5C512202938C311B">
-		<name>Commerce</name>
+	<Placemark id="pin6">
+		<name>Commerce, MO</name>
 		<gx:mid>/m/0w_0v</gx:mid>
 		<gx:fid>0x88782db03d7c8ed1:0x9fdeeae58ceffd44</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-89.4465695</longitude>
 			<latitude>37.1584035</latitude>
@@ -170,13 +732,18 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.4428624,37.1589392,0</coordinates>
+			<coordinates>-89.4465695,37.1584035,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="00C8A7513A02938C569F">
-		<name>Cairo</name>
+	<Placemark id="pin7">
+		<name>Cairo, IL</name>
 		<gx:mid>/m/0s2zq</gx:mid>
 		<gx:fid>0x8879c6ace405f89f:0x1ea46c834803db68</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-89.18286499999999</longitude>
 			<latitude>37.029583</latitude>
@@ -190,13 +757,18 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.1764608,37.0053293,0</coordinates>
+			<coordinates>-89.18286499999999,37.029583,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="0953C79ADF02938C7EA0">
-		<name>Columbus</name>
+	<Placemark id="pin8">
+		<name>Columbus, KY</name>
 		<gx:mid>/m/0tf50</gx:mid>
 		<gx:fid>0x887997f4ddde73c7:0x885d4f7d589c2a64</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-89.101574</longitude>
 			<latitude>36.7591091</latitude>
@@ -210,13 +782,18 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.10339979999999,36.7597791,0</coordinates>
+			<coordinates>-89.101574,36.7591091,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="097A0F437802938C9EEC">
-		<name>Hickman</name>
+	<Placemark id="pin9">
+		<name>Hickman, KY</name>
 		<gx:mid>/m/0tdnd</gx:mid>
 		<gx:fid>0x887909765e58449f:0x88a7be7d092f7c03</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-89.1830755</longitude>
 			<latitude>36.5609319</latitude>
@@ -230,13 +807,18 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.18617909999999,36.5711721,0</coordinates>
+			<coordinates>-89.1830755,36.5609319,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="03A7ACFCDE02938CCF2B">
-		<name>New Madrid</name>
+	<Placemark id="pin10">
+		<name>New Madrid, MO</name>
 		<gx:mid>/m/0wy96</gx:mid>
 		<gx:fid>0x8878f78a552aaeff:0x96db7c0d3227b42c</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-89.55061599999999</longitude>
 			<latitude>36.584209</latitude>
@@ -250,13 +832,18 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.52785469999999,36.5864488,0</coordinates>
+			<coordinates>-89.55061599999999,36.584209,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="05479ABB9902938DA555">
-		<name>Memphis</name>
+	<Placemark id="pin11">
+		<name>Memphis, TN</name>
 		<gx:mid>/m/0c_m3</gx:mid>
 		<gx:fid>0x87d57e1eea439745:0xd193f315601ab6fe</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-89.970787</longitude>
 			<latitude>35.129186</latitude>
@@ -270,13 +857,19 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-90.04898009999999,35.1495343,0</coordinates>
+			<coordinates>-89.970787,35.129186,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="00BA64209E02938E5088">
-		<name>Walnut Bend</name>
+    <!-- Walnut Bend, AR -->
+	<Placemark id="pin12">
+		<name>Pokeville, AR</name>
 		<gx:mid>/g/1tl7p7nd</gx:mid>
 		<gx:fid>0x87d527a9c58ad57f:0x5e934689de626725</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-90.57010489999999</longitude>
 			<latitude>34.7275987</latitude>
@@ -290,11 +883,18 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-90.57010489999999,34.7275992,0</coordinates>
+			<coordinates>-90.57010489999999,34.7275987,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="01F1F0CCB802938F5D42">
-		<name>Napoleon</name>
+    
+    <!-- Napoleon AR -->
+	<Placemark id="pin13">
+		<name>Bricksville, AR</name>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-91.074</longitude>
 			<latitude>33.797</latitude>
@@ -311,10 +911,16 @@
 			<coordinates>-91.074,33.797,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="035CEC362E029390111E">
-		<name>Greenville</name>
+    <!-- Greenville -->
+	<Placemark id="pin14">
+		<name>Wilks House</name>
 		<gx:mid>/m/0ws0h</gx:mid>
 		<gx:fid>0x862befcdb7aec9fb:0x5e8e481acf45111</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-91.06013039999999</longitude>
 			<latitude>33.3934975</latitude>
@@ -328,13 +934,19 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.0377029,33.399661,0</coordinates>
+			<coordinates>-91.06013039999999,33.3934975,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="08B32FCE46029391D562">
-		<name>Grand Lake Landing</name>
+    <!-- Grand Lake Landing -->
+	<Placemark id="pin15">
+		<name>Pikesville</name>
 		<gx:mid>/g/1tj73zfy</gx:mid>
 		<gx:fid>0x862b87c6d8035925:0xff7ea0b7d1f1b2aa</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-91.1817126</longitude>
 			<latitude>33.6297472</latitude>
@@ -351,10 +963,15 @@
 			<coordinates>-91.1817126,33.6297472,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="0B4669C8F50293926740">
+	<Placemark id="pin16">
 		<name>Baton Rouge</name>
 		<gx:mid>/m/0fvvz</gx:mid>
 		<gx:fid>0x86243867325f74cb:0x2123f1db91579a1d</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-91.11141859999999</longitude>
 			<latitude>30.441474</latitude>
@@ -368,13 +985,18 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.1403196,30.4582829,0</coordinates>
+			<coordinates>-91.11141859999999,30.441474,0</coordinates>
 		</Point>
 	</Placemark>
-	<Placemark id="08ED1760B50293928F62">
+	<Placemark id="pin17">
 		<name>New Orleans</name>
 		<gx:mid>/m/0f2tj</gx:mid>
 		<gx:fid>0x8620a454b2118265:0xdb065be85e22d3b4</gx:fid>
+        <description><![CDATA[
+            <h4>Background</h4>
+            <hr>
+            <h4>Analysis</h4>
+        ]]></description>
 		<LookAt>
 			<longitude>-89.8825634</longitude>
 			<latitude>30.0329964</latitude>
@@ -388,7 +1010,7 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-90.0715323,29.9510658,0</coordinates>
+			<coordinates>-89.8825634,30.0329964,0</coordinates>
 		</Point>
 	</Placemark>
 </Document>
