@@ -1,3 +1,3 @@
 # Huck-Finn-Project
-Huckleberry Finn Project for English Class
-Abhishek Allamsetty, Jude Bedessem, Ryan Kim, Aaraj Vij
+Huckleberry Finn Project for English Class <br />
+By: Abhishek Allamsetty, Jude Bedessem, Ryan Kim, Aaraj Vij
