@@ -105,7 +105,7 @@
             </gx:TourControl>
             
             <gx:FlyTo>
-                <gx:duration>6.0</gx:duration>
+                <gx:duration>5.0</gx:duration>
                 <LookAt>
                     <altitudeMode>relativeToGround</altitudeMode>
                     <longitude>-91.334612</longitude>
@@ -134,7 +134,7 @@
             </gx:TourControl>
             
             <gx:FlyTo>
-                <gx:duration>8.0</gx:duration>
+                <gx:duration>5.0</gx:duration>
                 <LookAt>
                     <altitudeMode>relativeToGround</altitudeMode>
                     <longitude>-89.425964</longitude>
@@ -163,7 +163,7 @@
             </gx:TourControl>
             
             <gx:FlyTo>
-                <gx:duration>8.0</gx:duration>
+                <gx:duration>5.0</gx:duration>
                 <LookAt>
                     <altitudeMode>relativeToGround</altitudeMode>
                     <longitude>-89.448057</longitude>
@@ -192,7 +192,7 @@
             </gx:TourControl>
             
             <gx:FlyTo>
-                <gx:duration>7.0</gx:duration>
+                <gx:duration>5.0</gx:duration>
                 <LookAt>
                     <altitudeMode>relativeToGround</altitudeMode>
                     <longitude>-89.160618</longitude>
@@ -395,7 +395,7 @@
                 <gx:playMode>pause</gx:playMode>
             </gx:TourControl>
             <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
+                <gx:duration>0.0</gx:duration>
                 <!-- bounce is the default flyToMode -->
                 <LookAt>
                     <longitude>-91.106963</longitude>
@@ -425,7 +425,7 @@
             </gx:TourControl>
             
             <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
+                <gx:duration>0.0</gx:duration>
                 <!-- bounce is the default flyToMode -->
                 <LookAt>
                     <longitude>-91.106963</longitude>
@@ -485,7 +485,7 @@
             </gx:TourControl>
             
             <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
+                <gx:duration>0.0</gx:duration>
                 <!-- bounce is the default flyToMode -->
                 <LookAt>
                     <longitude>-91.132934</longitude>
@@ -518,8 +518,8 @@
                 <gx:duration>5.0</gx:duration>
                 <!-- bounce is the default flyToMode -->
                 <LookAt>
-                    <longitude>-91.129936</longitude>
-                    <latitude>33.376815</latitude>
+                    <longitude>-91.133432</longitude>
+                    <latitude>33.388537</latitude>
                     <altitude>0</altitude>
                     <heading>0</heading>
                     <tilt>30</tilt>
@@ -545,11 +545,11 @@
             </gx:TourControl>
             
             <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
+                <gx:duration>0.0</gx:duration>
                 <!-- bounce is the default flyToMode -->
                 <LookAt>
-                    <longitude>-91.129936</longitude>
-                    <latitude>33.376815</latitude>
+                    <longitude>-91.133432</longitude>
+                    <latitude>33.388537</latitude>
                     <altitude>0</altitude>
                     <heading>0</heading>
                     <tilt>30</tilt>
@@ -578,8 +578,8 @@
                 <gx:duration>5.0</gx:duration>
                 <!-- bounce is the default flyToMode -->
                 <LookAt>
-                    <longitude>-91.133432</longitude>
-                    <latitude>33.388537</latitude>
+                    <longitude>-91.129936</longitude>
+                    <latitude>33.376815</latitude>
                     <altitude>0</altitude>
                     <heading>0</heading>
                     <tilt>30</tilt>
@@ -605,11 +605,11 @@
             </gx:TourControl>
             
             <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
+                <gx:duration>0.0</gx:duration>
                 <!-- bounce is the default flyToMode -->
                 <LookAt>
-                    <longitude>-91.133432</longitude>
-                    <latitude>33.388537</latitude>
+                    <longitude>-91.129936</longitude>
+                    <latitude>33.376815</latitude>
                     <altitude>0</altitude>
                     <heading>0</heading>
                     <tilt>30</tilt>
@@ -635,11 +635,11 @@
             </gx:TourControl>
             
             <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
+                <gx:duration>0.0</gx:duration>
                 <!-- bounce is the default flyToMode -->
                 <LookAt>
-                    <longitude>-91.133432</longitude>
-                    <latitude>33.388537</latitude>
+                    <longitude>-91.129936</longitude>
+                    <latitude>33.376815</latitude>
                     <altitude>0</altitude>
                     <heading>0</heading>
                     <tilt>30</tilt>
@@ -734,7 +734,8 @@
             Huck and Jim discover the wreck of a steamboat: The Walter Scott. While exploring the wreck, Huck realizes that there are several robbers onboard the stranded boat.
             <hr>
             <h4>Analysis</h4>
-            Huck demonstrates a level of sympathy to the lowest classes. Huck’s actions display a certain patronizing behavior of the bourgeoisie to the proletariat. “I begun to think how dreadful it was, even for murderers, to be in such a fix. I says to myself, there ain’t no telling but I might come to be a murderer myself yet, and then how would I like it” (72)? But Huck’s motivation is neither economic, selfish nor self-indulgent. This goes against Marxist descriptions of society. He ends up rationalizing his decision and sympathizing with a class of people that society would deem inferior from social constructs developed by others.
+            Huck shows a level of sympathy to the lowest classes as if there is an implied class distiction. Huck’s actions display a certain patronizing behavior of the bourgeoisie to the proletariat. “I begun to think how dreadful it was, even for murderers, to be in such a fix. I says to myself, there ain’t no telling but I might come to be a murderer myself yet, and then how would I like it” (72)? But Huck’s motivation is neither economic, selfish nor self-indulgent. This goes against Marxist descriptions of society. He ends up rationalizing his decision and sympathizing with a class of people that society would deem inferior from social constructs developed by others.
+
         ]]></description>
 		<LookAt>
 			<longitude>-89.425964</longitude>
@@ -818,7 +819,7 @@
             Huck and Jim are still likely somewhere in between Cairo and the Grangerfords'
             <hr>
             <h4>Analysis</h4>
-            Huck’s first confrontation with his flawed social order, and his first of what Keith Nielson called his “critical decision[s],” comes only a quarter of a way into his journey (Nielson xiii). In a decision that parallels Huck’s moral climax, Huck decides to conform to social expectations and turn Jim in. Before he reluctantly decides he “<i>got</i> to do it,” Huck meets his internal moral conflict (89). Huck’s new moral complexity had not yet been fully realized; he failed to reject the corruption of the capitalist consciousness, and stand by his moral convictions. However, Huck’s moral journey follows his journey down the Mississippi, and when he once again confronts the same question, he is no longer beholden to classist moral distinctions.
+            Huck’s first confrontation with his flawed social order, and the first of what Keith Nielson called his “critical decision[s],” comes only a quarter of a way into his journey (Nielson xiii). In a decision that parallels Huck’s moral climax, Huck decides to conform to social expectations and turn Jim in. Before he reluctantly decides he “<i>got</i> to do it,” Huck confronts his internal moral struggle (89). Huck’s new moral complexity is not yet fully realized; he failed to reject the corruption of the capitalist consciousness, and stand by his moral convictions. However, Huck’s moral journey follows his journey down the Mississippi, and when he once again confronts the same question, he is no longer beholden to classist moral distinctions.
         ]]></description>
 		<LookAt>
 			<longitude>-89.102079</longitude>
@@ -899,7 +900,8 @@
             The shooting of Boggs by Shepburn occurs in the city of Pokeville.
             <hr>
             <h4>Analysis</h4>
-            When we view the society that the book presents through a Marxist lens, the clearly defined class structure is apparent in all aspects of life. “I could ‘a’ stayed if I wanted to, but I didn’t want to” (147). Sherburn’s higher social class makes Huck afraid to stand up to him and demonstrates the amount of inequality between classes there are. Sherburn represents the bourgeoisie, and Huck the proletariat. This quote demonstrates the sheer ability of the bourgeoisie to influence and manipulate the proletariat. The dismissive and outward-blaming thought process outlined in the quote represents the justification many of the proletariat class had for the exploitation and class distinction that the bourgeoisie inflicted upon society.
+            When we view the society that the book presents through a Marxist lens, the clearly defined class structure is apparent in all aspects of life. “I could ‘a’ stayed if I wanted to, but I didn’t want to” (147). Sherburn’s higher social class makes Huck afraid to stand up to him and demonstrates the amount of inequality between classes there are. Sherburn represents the bourgeoisie, and Huck the proletariat. The bourgeoisie have a great ability to influence and manipulate the proletariat. The dismissive and outward-blaming thought process outlined in the quote represents the justification many of the proletariat class had for the exploitation and class distinction that the bourgeoisie inflicted upon society.
+
 
         ]]></description>
 		<LookAt>
@@ -1097,8 +1099,8 @@
             Huck was disgusted by the duke and dauphin’s money making schemes, the latest of which involved selling Jim. However, as the two con men were being tarred and feathered by enraged townspeople following another bluff, Huck’s resentment faded. “Human beings can be awful cruel to one another” he remarked (231). The duke and dauphin, the bourgeois, had manipulated Huck, the proletariat. Huck should have felt fuel for his eternal conflict with the upper class, yet he instead felt sympathy, and determined that all humans, regardless of class, can be awful to each other.
         ]]></description>
 		<LookAt>
-			<longitude>-91.129936</longitude>
-			<latitude>33.376815</latitude>
+            <longitude>-91.133432</longitude>
+            <latitude>33.388537</latitude>
 			<altitude>16.45970777571112</altitude>
 			<heading>0</heading>
 			<tilt>0</tilt>
@@ -1109,7 +1111,7 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.129936,33.376815,0</coordinates>
+            <coordinates>-91.133432,33.388537,0</coordinates>
 		</Point>
 	</Placemark>
 	<Placemark id="pin17">
@@ -1124,8 +1126,8 @@
             Huck’s moral compass is proven to go awry at times. Where it guides him towards the right direction, but the right actions don’t always precipitate outwards. His actions are sometimes diverted through his Marxist wants. He sometimes just looks at the check, instead of understanding the circumstances that lead to the bottom line. It is easy to fall back onto the Marxist ideology as it is well defined and not as challenging as following your morals. “When I start in to steal a n*****, or a watermelon, or a Sunday-school book, I ain’t no ways particular how it’s done so it’s done … and I don’t give a dead rat what the authorities thinks about it nuther” (246). Huck falls back onto the capitalist view in this quote, only caring about economic benefit he stands to gain as a result of his work.
         ]]></description>
 		<LookAt>
-            <longitude>-91.129936</longitude>
-            <latitude>33.376815</latitude>
+            <longitude>-91.133432</longitude>
+            <latitude>33.388537</latitude>
 			<altitude>2.699458087275116</altitude>
 			<heading>0</heading>
 			<tilt>0</tilt>
@@ -1136,7 +1138,7 @@
 		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
 		<Point>
 			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.129936,33.376815,0</coordinates>
+            <coordinates>-91.133432,33.388537,0</coordinates>
 		</Point>
 	</Placemark>
     <Placemark id="pin18">
@@ -1147,8 +1149,8 @@
             Huck’s moral compass is easily misdirected by Tom Sawyer’s influence. Although Jim’s escape from captivity could have been as simple as slipping off a chain, Tom insists that Jim’s escape would only be honorable if there were “a lot of difficulties and dangers” (238). Tom goes on to suggest absurd escape plans for Jim, which Huck initially refutes as being unnecessary. However, Tom wears out Huck, who concedes and tells Tom to “fix it your own way” (241). Huck goes on to help Tom in coercing Jim to perform strenuous tasks to “earn” his freedom (246-250).
         ]]></description>
         <LookAt>
-            <longitude>-91.133432</longitude>
-            <latitude>33.388537</latitude>
+            <longitude>-91.129936</longitude>
+            <latitude>33.376815</latitude>
             <altitude>2.699458087275116</altitude>
             <heading>0</heading>
             <tilt>0</tilt>
@@ -1159,7 +1161,7 @@
         <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
         <Point>
             <altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-91.133432,33.388537,0</coordinates>
+            <coordinates>-91.129936,33.376815,0</coordinates>
         </Point>
     </Placemark>
     <Placemark id="pin19">
@@ -1170,8 +1172,8 @@
             During their escape, Tom was shot in his calf. Although Tom thought the bullet was cool, Jim was insistent that Tom see a doctor for his health, because that is what Tom or Huck would have done for him. Huck rationalized Tom’s compassion by stating “I knowed he was white inside, and I reckoned he’d say what he did say -- so it was all right now” (276). Huck abided by societal norms which dictated that only whiteness can have a positive connotation. A norm which explained that if an individual was a good person, it could only be because they were white inside.
         ]]></description>
         <LookAt>
-            <longitude>-91.133432</longitude>
-            <latitude>33.388537</latitude>
+            <longitude>-91.129936</longitude>
+            <latitude>33.376815</latitude>
             <altitude>2.699458087275116</altitude>
             <heading>0</heading>
             <tilt>0</tilt>
@@ -1182,7 +1184,7 @@
         <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
         <Point>
             <altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-91.133432,33.388537,0</coordinates>
+            <coordinates>-91.129936,33.376815,0</coordinates>
         </Point>
     </Placemark>
     <Placemark id="pin20">
@@ -1193,8 +1195,8 @@
             As compensation for the violence that Huck and Tom forced Jim to endure while in captivity, Tom gave “Jim forty dollars for being prisoner for us so patient, and doing it up so good” (293). Huck’s obvious excitement from this exchange suggests that he still bought into the capitalist idea that any wrongdoing could be compensated with money. This mindset justified Huck and Tom’s acts of gratuitous violence against Jim.
         ]]></description>
         <LookAt>
-            <longitude>-91.133432</longitude>
-            <latitude>33.388537</latitude>
+            <longitude>-91.129936</longitude>
+            <latitude>33.376815</latitude>
             <altitude>2.699458087275116</altitude>
             <heading>0</heading>
             <tilt>0</tilt>
@@ -1205,7 +1207,7 @@
         <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
         <Point>
             <altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-91.133432,33.388537,0</coordinates>
+            <coordinates>-91.129936,33.376815,0</coordinates>
         </Point>
     </Placemark>
 </Document>
