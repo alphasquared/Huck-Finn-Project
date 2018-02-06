@@ -1,1214 +1,1214 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<Document>
-	<name>Huckleberry Finn Project</name>
-    <description><![CDATA[
-        <font size=5
-        INTRODUCTION HERE
-        ]]></description>
-    <LookAt>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <longitude>-89.672992</longitude>
-        <latitude>36.473379</latitude>
-        <altitude>0</altitude>
-        <tilt>60</tilt>
-        <range>1000000</range>
-    </LookAt>
-
-	<Style id="__managed_style_250D175E37029388C6AD">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>https://earth.google.com/clientassets/pin_myplaces_selected_128px.png</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-		</LabelStyle>
-		<BalloonStyle>
-			<gx:displayMode>card</gx:displayMode>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>1.8</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c000000</color>
-		</PolyStyle>
-	</Style>
-	<Style id="__managed_style_17D7BB0397029388C6AD">
-		<IconStyle>
-			<Icon>
-				<href>https://earth.google.com/clientassets/pin_myplaces_selected_128px.png</href>
-			</Icon>
-			<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-		</LabelStyle>
-		<BalloonStyle>
-			<gx:displayMode>card</gx:displayMode>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff000000</color>
-			<width>1.2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c000000</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="__managed_style_0EE442986E029388C6AD">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_17D7BB0397029388C6AD</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_250D175E37029388C6AD</styleUrl>
-		</Pair>
-	</StyleMap>
-    
-    
-    
-    <!-- Animation -->
-    <gx:Tour>
-        <name>Play</name>
-        <gx:Playlist>
-            
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.391685</longitude>
-                    <latitude>39.7128634</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin1">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <LookAt>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                    <longitude>-91.334612</longitude>
-                    <latitude>39.706579</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin2">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <LookAt>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                    <longitude>-89.425964</longitude>
-                    <latitude>37.408696, </latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin3">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <LookAt>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                    <longitude>-89.448057</longitude>
-                    <latitude>37.176358</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin4">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <LookAt>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                    <longitude>-89.160618</longitude>
-                    <latitude>36.974103</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin5">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-89.102079</longitude>
-                    <latitude>36.943466</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin6">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-89.105991</longitude>
-                    <latitude>36.929499</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin7">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-89.562557</longitude>
-                    <latitude>36.526874</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin8">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-90.577155</longitude>
-                    <latitude>34.731613</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin9">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-90.574077</longitude>
-                    <latitude>34.671631</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin10">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.106963</longitude>
-                    <latitude>33.469556</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin11">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            <gx:FlyTo>
-                <gx:duration>0.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.106963</longitude>
-                    <latitude>33.469556</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin12">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>0.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.106963</longitude>
-                    <latitude>33.469556</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin13">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.132934</longitude>
-                    <latitude>33.398383</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin14">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>0.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.132934</longitude>
-                    <latitude>33.398383</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin15">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.133432</longitude>
-                    <latitude>33.388537</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin16">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>0.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.133432</longitude>
-                    <latitude>33.388537</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin17">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>5.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.129936</longitude>
-                    <latitude>33.376815</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin18">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>0.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.129936</longitude>
-                    <latitude>33.376815</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin19">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-            <gx:FlyTo>
-                <gx:duration>0.0</gx:duration>
-                <!-- bounce is the default flyToMode -->
-                <LookAt>
-                    <longitude>-91.129936</longitude>
-                    <latitude>33.376815</latitude>
-                    <altitude>0</altitude>
-                    <heading>0</heading>
-                    <tilt>30</tilt>
-                    <range>5000</range>
-                    <altitudeMode>relativeToGround</altitudeMode>
-                </LookAt>
-            </gx:FlyTo>
-            
-            <gx:AnimatedUpdate>
-                <gx:duration>0.0</gx:duration>
-                <Update>
-                    <targetHref/>
-                    <Change>
-                        <Placemark targetId="pin20">
-                            <gx:balloonVisibility>1</gx:balloonVisibility>
-                        </Placemark>
-                    </Change>
-                </Update>
-            </gx:AnimatedUpdate>
-            
-            <gx:TourControl>
-                <gx:playMode>pause</gx:playMode>
-            </gx:TourControl>
-            
-        </gx:Playlist>
-    </gx:Tour>
-
-    <!-- Placemarks -->
-    
-    
-    <!-- Hannibal, MO -->
-	<Placemark id="pin1">
-		<name>St. Petersburg, MO</name>
-		<gx:mid>/m/013h3h</gx:mid>
-		<gx:fid>0x87dde8a4093156f5:0x9a8b4e4e76ebaa3c</gx:fid>
+    <Document>
+        <name>Huckleberry Finn Project</name>
         <description><![CDATA[
-            <h4>Background</h4>
-            Huck's Story begins in the town of St. Petersburg, and picks up soon after the events of Mark Twain's <i>The Adventures of Tom Sawyer</i>.
-            <hr>
-            <h4>Analysis</h4>
-            The society of St. Petersburg is driven by a caricatured capitalist society, divided into distinct classes. Within a society segmented amongst different roles, Huckleberry Finn merely remains complacent in the ongoings of Petersburg. The widow attempts to “sivilize” Huck, while Pap is scornful of education and the upper class (Twain 1, 19). Even as members of separate social strata are driven by separate capitalist desires, and reflect classist distinctions, Huck plays neither a role in the class struggle, nor opposes it. No, indeed, in the beginning of the novel, Huck is perfectly happy to remain passive and complacent in his capitalist society.
-        ]]></description>
-		<LookAt>
-			<longitude>-91.391685</longitude>
-			<latitude>39.7128634</latitude>
-			<altitude>150</altitude>
-			<heading>0</heading>
-			<tilt>0</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>900</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.391685,39.7128634,0</coordinates>
-		</Point>
-	</Placemark>
-    
-    <!-- Pearl's Island -->
-    <Placemark id="pin2">
-        <name>Jackson&apos;s Island</name>
-        <gx:mid>/g/1v8gcl6n</gx:mid>
-        <gx:fid>0x87dde6ec270c0fcf:0x35f35f9a29911e4f</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            After faking his own death, Huck Finn flees to Jackson's Island before he soon encounters the runaway slave: Jim.
+            <font size=5
+            INTRODUCTION HERE
         ]]></description>
         <LookAt>
-            <longitude>-91.334612</longitude>
-            <latitude>39.706579</latitude>
-            <altitude>142.0917938286331</altitude>
-            <heading>0</heading>
-            <tilt>45</tilt>
-            <gx:fovy>30</gx:fovy>
-            <range>864.5420543051794</range>
-            <altitudeMode>absolute</altitudeMode>
-        </LookAt>
-        <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-        <Point>
             <altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-91.334612,39.706579,0</coordinates>
-        </Point>
-    </Placemark>
-    
-	<Placemark id="pin3">
-		<name>Wreck of the Walter Scott</name>
-		<gx:mid>/m/04b1sw1</gx:mid>
-		<gx:fid>0x887783b327cc8707:0x88d263046d4ec679</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            Huck and Jim discover the wreck of a steamboat: The Walter Scott. While exploring the wreck, Huck realizes that there are several robbers onboard the stranded boat.
-            <hr>
-            <h4>Analysis</h4>
-            Huck shows a level of sympathy to the lowest classes as if there is an implied class distiction. Huck’s actions display a certain patronizing behavior of the bourgeoisie to the proletariat. “I begun to think how dreadful it was, even for murderers, to be in such a fix. I says to myself, there ain’t no telling but I might come to be a murderer myself yet, and then how would I like it” (72)? But Huck’s motivation is neither economic, selfish nor self-indulgent. This goes against Marxist descriptions of society. He ends up rationalizing his decision and sympathizing with a class of people that society would deem inferior from social constructs developed by others.
-
-        ]]></description>
-		<LookAt>
-			<longitude>-89.425964</longitude>
-			<latitude>37.408696, </latitude>
-			<altitude>107.6863508440202</altitude>
-			<heading>0</heading>
-			<tilt>45</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>4710.823045672599</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.425964,37.408696,0</coordinates>
-		</Point>
-	</Placemark>
-    
-    <Placemark id="pin4">
-        <name>Walter Scott - Cairo, IL</name>
-        <gx:mid>/g/1v8gcl6n</gx:mid>
-        <gx:fid>0x87dde6ec270c0fcf:0x35f35f9a29911e4f</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            Soon after leaving the Wreck of the Walter Scott, the duo begin discussing whether King Solomon was a wise man.
-            <hr>
-            <h4>Analysis</h4>
-            Even as Huck is confronted with the folly of capitalist society, he clings to the dogmatic teachings of the widow. When Jim questions the wisdom of King Solomon, Huck almost instinctively responds that “he was the wisest… because the widow told me so“ (77). Huck’s compliance with authority, in the form of the widow’s teachings, leads directly to his passivity towards capitalist class structures. Huck’s unquestioning acceptance of the widow’s lessons, which encourage blind trust in the exploitative bourgeoisie, demonstrates Huck’s initial submission to the classist status quo.
-        ]]></description>
-        <LookAt>
-            <longitude>-89.448057</longitude>
-            <latitude>37.176358</latitude>
-            <altitude>142.0917938286331</altitude>
-            <heading>0</heading>
-            <tilt>45</tilt>
-            <gx:fovy>30</gx:fovy>
-            <range>864.5420543051794</range>
-            <altitudeMode>absolute</altitudeMode>
+            <longitude>-89.672992</longitude>
+            <latitude>36.473379</latitude>
+            <altitude>0</altitude>
+            <tilt>60</tilt>
+            <range>1000000</range>
         </LookAt>
-        <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-        <Point>
-            <altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-89.448057,37.176358,0</coordinates>
-        </Point>
-    </Placemark>
-    
-	<Placemark id="pin5">
-		<name>Cairo, IL – Grangerfords'</name>
-		<gx:mid>/m/0s2_t</gx:mid>
-		<gx:fid>0x8879d4ad5aa83299:0x2a6e960bc9470c97</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            After Jim and Huck get separated in thick fog, Huck pranks Jim. The location is not entirely clear, but its implied that Huck and Jim are passing Cairo.
-            <hr>
-            <h4>Analysis</h4>
-            Due to the Marxist class structure evident in the society of the time between blacks and whites, Huck feels embarrassed to even apologize to Jim, a black man. The mere hint of equalization of power and respect between the two classes or the breakdown of the social hierarchy in place at the time brings him great difficulty and pain. “It was fifteen minutes before I could work myself up to go and humble myself to a n*****” (86). The classist distinction between people based on just their skin color is enough to view this quote through a Marxist lens. He feels bad for playing a joke on someone he considers as inferior to him and demonstrates the benevolence the bourgeoisie can uniquely provide to the proletariat. This benevolence was definitely utilized as a tool used by the bourgeoisie to maintain the social hierarchy by appeasing the proletariat at that instant. They are being deliberately the least compassionate as possible as to suppress the chances of an uprising.
-
-        ]]></description>
-		<LookAt>
-			<longitude>-89.160618</longitude>
-			<latitude>36.974103</latitude>
-			<altitude>145.1854613658972</altitude>
-			<heading>0</heading>
-			<tilt>45</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>10044.55247175601</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.160618,36.974103,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="pin6">
-		<name>Cairo, IL – Grangerfords'</name>
-		<gx:mid>/m/0w_0v</gx:mid>
-		<gx:fid>0x88782db03d7c8ed1:0x9fdeeae58ceffd44</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            Huck and Jim are still likely somewhere in between Cairo and the Grangerfords'
-            <hr>
-            <h4>Analysis</h4>
-            Huck’s first confrontation with his flawed social order, and the first of what Keith Nielson called his “critical decision[s],” comes only a quarter of a way into his journey (Nielson xiii). In a decision that parallels Huck’s moral climax, Huck decides to conform to social expectations and turn Jim in. Before he reluctantly decides he “<i>got</i> to do it,” Huck confronts his internal moral struggle (89). Huck’s new moral complexity is not yet fully realized; he failed to reject the corruption of the capitalist consciousness, and stand by his moral convictions. However, Huck’s moral journey follows his journey down the Mississippi, and when he once again confronts the same question, he is no longer beholden to classist moral distinctions.
-        ]]></description>
-		<LookAt>
-			<longitude>-89.102079</longitude>
-			<latitude>36.943466</latitude>
-			<altitude>105.3604642749995</altitude>
-			<heading>0</heading>
-			<tilt>45</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>1987.013002605355</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.102079,36.943466,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="pin7">
-		<name>Cairo, IL – Grangerfords'</name>
-		<gx:mid>/m/0s2zq</gx:mid>
-		<gx:fid>0x8879c6ace405f89f:0x1ea46c834803db68</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            Huck's particular statement, that <i>“What’s the use you learning to do right and ain’t no trouble to do wrong, and the wages is just the same,”</i> is made soon after the events of the last pin (91).
-            <hr>
-            <h4>Analysis</h4>
-            Huck’s decision making is based on what brings him the most profit, regardless of whether “wage” implies money or a personal gain. This is prioritized over moral reasoning.“What’s the use you learning to do right and ain’t no trouble to do wrong, and the wages is just the same” (91). Marx proposes a theoretical system of capitalism to be non-ideal. Huck’s actions follow this capitalist view, favoring money and material gain over ethics and morals.
-        ]]></description>
-		<LookAt>
-			<longitude>-89.105991</longitude>
-			<latitude>36.929499</latitude>
-			<altitude>100.0019883503486</altitude>
-			<heading>0</heading>
-			<tilt>0</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>40272.71710836353</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.105991,36.929499,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="pin8">
-		<name>Grangerfords' – Pokeville, AR</name>
-		<gx:mid>/m/0tf50</gx:mid>
-		<gx:fid>0x887997f4ddde73c7:0x885d4f7d589c2a64</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            Huck and Jim only recently departed the Grangerfords' before encounter the Duke and the King.
-            <hr>
-            <h4>Analysis</h4>
-            In the beginning of the novel, Huck demonstrates his complete acceptance of classist, exploitative capitalist societies. Immediately after ‘discovering’ that the two strangers they meet are nobility “Jim and [Huck] set to majestying [them]” (124). Even after he recognizes that the so-called Duke and King are “rapscallions” and charlatans that “couldn’t [be told] from the real kind,” Huck sees no harm in remaining subservient to the so-called Duke and King (154, 155). Huck feels obligated to remain obedient to the bourgeoisie, even a fraudulent one. In acting in such a complaisant manner, Huck furthers the class divide and permits bourgeois exploitation. However, as we will see, Huck’s evolving complexity and conviction is intrinsically tied to the actions of the Duke and the King.
-        ]]></description>
-		<LookAt>
-			<longitude>-89.562557</longitude>
-			<latitude>36.526874</latitude>
-			<altitude>130.2945880787896</altitude>
-			<heading>0</heading>
-			<tilt>45</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>4764.59283617944</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-89.562557,36.526874,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="pin9">
-		<name>Pokeville, AR</name>
-		<gx:mid>/m/0tdnd</gx:mid>
-		<gx:fid>0x887909765e58449f:0x88a7be7d092f7c03</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            The shooting of Boggs by Shepburn occurs in the city of Pokeville.
-            <hr>
-            <h4>Analysis</h4>
-            When we view the society that the book presents through a Marxist lens, the clearly defined class structure is apparent in all aspects of life. “I could ‘a’ stayed if I wanted to, but I didn’t want to” (147). Sherburn’s higher social class makes Huck afraid to stand up to him and demonstrates the amount of inequality between classes there are. Sherburn represents the bourgeoisie, and Huck the proletariat. The bourgeoisie have a great ability to influence and manipulate the proletariat. The dismissive and outward-blaming thought process outlined in the quote represents the justification many of the proletariat class had for the exploitation and class distinction that the bourgeoisie inflicted upon society.
-
-
-        ]]></description>
-		<LookAt>
-			<longitude>-90.577155</longitude>
-			<latitude>34.731613</latitude>
-			<altitude>110.8960270362743</altitude>
-			<heading>0</heading>
-			<tilt>45</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>10129.96569455018</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-90.577155,34.731613,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="pin10">
-		<name>Pokeville, AR – Wilks House</name>
-		<gx:mid>/m/0wy96</gx:mid>
-		<gx:fid>0x8878f78a552aaeff:0x96db7c0d3227b42c</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            Soon after departing Pokeville, Jim calls the Duke and the King nothing but <i>"rapscallions" </i> (154).
-            <hr>
-            <h4>Analysis</h4>
-            Marxist theory shows a large disconnect between the proletariat and bourgeoisie. This disconnect allows for a buildup of contempt between the two parties in the inherently unequal ground that the two groups stand on.  Huck shows a low opinion of the bourgeoisie, claiming that “you couldn’t tell [the Duke and Dauphin] from the real kind” of royalty (155).  Huck believes that the real bourgeoisie are just as fraudulent as the Duke and Dauphin.  Huck does not take real action against the Duke and Dauphin, and claims that the reason is that “it wouldn’t ‘a’ done no good” (155). In reality, Huck’s morality has not developed enough for him to take a strong stance against their fraud.
-        ]]></description>
-		<LookAt>
-			<longitude>-90.574077</longitude>
-			<latitude>34.671631</latitude>
-			<altitude>93.58584470953306</altitude>
-			<heading>0</heading>
-			<tilt>45</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>10126.9128359534</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-90.574077,34.671631,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="pin11">
-		<name>Wilks House</name>
-		<gx:mid>/m/0c_m3</gx:mid>
-		<gx:fid>0x87d57e1eea439745:0xd193f315601ab6fe</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            Upon arriving at the Wilks' House, the Duke and Dauphin begin acting like the brothers of a dead man.
-            <hr>
-            <h4>Analysis</h4>
-            The Duke and Dauphin are the ultimate capitalists -- they create a new con at every town they visit, not caring if their schemes are morally acceptable or not.  The Duke and Dauphin demonstrate how capitalism makes people prioritize economic profit far more than morality.  Huck is mortified by their acts, remarking “. . . It was enough to make a body ashamed of the human race” (163), However, Huck but does not act out in opposition.  Huck’s moral compass is still developing, and though he recognizes the Duke and Dauphin’s immorality he has not yet developed enough to act in defiance.
-
-        ]]></description>
-		<LookAt>
-			<longitude>-91.106963</longitude>
-			<latitude>33.469556</latitude>
-			<altitude>91.92396231724148</altitude>
-			<heading>0</heading>
-			<tilt>0</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>82516.08129289583</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.106963,33.469556,0</coordinates>
-		</Point>
-	</Placemark>
-    <!-- Walnut Bend, AR -->
-	<Placemark id="pin12">
-		<name>Wilks House</name>
-		<gx:mid>/g/1tl7p7nd</gx:mid>
-		<gx:fid>0x87d527a9c58ad57f:0x5e934689de626725</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            The company is still at the Wilks' estate.
-            <hr>
-            <h4>Analysis</h4>
-            The Duke and the Dauphin’s values are demonstrated to be fully motivated by economic profit. They conform to capitalistic characteristics, realizing the risk of continuing what they have been doing, but too tempted by the riches of the estate to leave.“‘I’m for knocking off and lighting out.’ . . . ‘What! And not sell out the rest o’ the property” (177)? The two consider how the auction won’t actually harm the family economically, but their main concern is their own economic gain.
-
-        ]]></description>
-		<LookAt>
-            <longitude>-91.106963</longitude>
-            <latitude>33.469556</latitude>
-			<altitude>53.16205820965375</altitude>
-			<heading>0</heading>
-			<tilt>45</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>4928.374676689619</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.106963,33.469556,0</coordinates>
-		</Point>
-	</Placemark>
-    
-    <!-- Napoleon AR -->
-	<Placemark id="pin13">
-		<name>Wilks House</name>
-        <description><![CDATA[
-            <h4>Background</h4>
-            Huck manages to escape an angry mob after they discover gold in Wilks' coffin.
-            <hr>
-            <h4>Analysis</h4>
-            After the mob sees the bag of gold in the coffin, they forget about their prisoners and “give a big surge to bust [their] way in and get a look” (204).  Their interest in the money reflects classic Marxism; people are only motivated by economic factors.  Huck’s captors forget about all else upon seeing the gold, which allows Huck, the Duke, and the Dauphin to make a quick escape.  Huck is exposed to more and more of others’ Marxism throughout his journey as he moves away from economic motivation and towards more moral consciousness.
-        ]]></description>
-		<LookAt>
-            <longitude>-91.106963</longitude>
-            <latitude>33.469556</latitude>
-			<altitude>45.53052390440258</altitude>
-			<heading>0</heading>
-			<tilt>45</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>941.409848260021</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.106963,33.469556,0</coordinates>
-		</Point>
-	</Placemark>
-    <!-- Greenville -->
-	<Placemark id="pin14">
-		<name>Near Pikesville, AR</name>
-		<gx:mid>/m/0ws0h</gx:mid>
-		<gx:fid>0x862befcdb7aec9fb:0x5e8e481acf45111</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            Huck soon discovers after landing at Pikesville, that the Duke and the King turned Jim in for forty dollars.
-            <hr>
-            <h4>Analysis</h4>
-            In the beginning of the novel, Huck made no judgement of Pap, nor of the capitalist motivations of Pap’s actions. However, after the majority of his journey, Huck is no longer lenient with the characters who most parallel Pap – the Duke and the King. Instead, Huck not only feels vindictive towards “them scoundrels” for selling Jim, but also because they sold him for “forty dirty dollars” (212). While Huck is initially complaisant in capitalist society, he grows to despise the cruel actions it motivates others to perpetrate. It’s quite poignant that Huck puts such emphasis on the money for which the Duke and the King exchanged Jim.
-        ]]></description>
-		<LookAt>
-			<longitude>-91.132934</longitude>
-			<latitude>33.398383</latitude>
-			<altitude>41.46499149711459</altitude>
-			<heading>0</heading>
-			<tilt>0</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>42118.33696684459</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.132934,33.398383,0</coordinates>
-		</Point>
-	</Placemark>
-    <!-- Grand Lake Landing -->
-	<Placemark id="pin15">
-		<name>Near Pikesville, AR</name>
-		<gx:mid>/g/1tj73zfy</gx:mid>
-		<gx:fid>0x862b87c6d8035925:0xff7ea0b7d1f1b2aa</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            After attempting to write a letter to Miss Watson, Huck decided to <i> "go to hell"</i> instead of turn Jim in (214).
-            <hr>
-            <h4>Analysis</h4>
-            Huck reaches the climax of his moral journey when he tears up the note to Miss Watson.  Huck’s journey has seen Huck both bowing down to society’s capitalist desires and fighting back, and in the climax Huck decides that he must follow his moral compass at any cost.  Saying “All right, then, I’ll go to hell,” Huck shows that the relationship he has built with Jim is worth more to him than avoiding any punishment (214).  Clearly, Huck is influenced by the Marxist society he lives in.  However, at the end of the day Huck’s moral journey has taught him to value the people closest to him more than the Marxist view that his racial or social class is superior to another.
-        ]]></description>
-		<LookAt>
-            <longitude>-91.132934</longitude>
-            <latitude>33.398383</latitude>
-			<altitude>44.10313405219888</altitude>
-			<heading>0</heading>
-			<tilt>45</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>943.4464661971114</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-			<coordinates>-91.132934,33.398383,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="pin16">
-		<name>Pikesville, AR</name>
-		<gx:mid>/m/0fvvz</gx:mid>
-		<gx:fid>0x86243867325f74cb:0x2123f1db91579a1d</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            After commiting one con too many, the Duke and the King are tarred and feathered by the people of Pikeville.
-            <hr>
-            <h4>Analysis</h4>
-            Huck was disgusted by the duke and dauphin’s money making schemes, the latest of which involved selling Jim. However, as the two con men were being tarred and feathered by enraged townspeople following another bluff, Huck’s resentment faded. “Human beings can be awful cruel to one another” he remarked (231). The duke and dauphin, the bourgeois, had manipulated Huck, the proletariat. Huck should have felt fuel for his eternal conflict with the upper class, yet he instead felt sympathy, and determined that all humans, regardless of class, can be awful to each other.
-        ]]></description>
-		<LookAt>
-            <longitude>-91.133432</longitude>
-            <latitude>33.388537</latitude>
-			<altitude>16.45970777571112</altitude>
-			<heading>0</heading>
-			<tilt>0</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>86984.67998555623</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-91.133432,33.388537,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="pin17">
-        <name>Pikesville, AR</name>
-		<gx:mid>/m/0f2tj</gx:mid>
-		<gx:fid>0x8620a454b2118265:0xdb065be85e22d3b4</gx:fid>
-        <description><![CDATA[
-            <h4>Background</h4>
-            From this point forward, in a series of complacent and passive actions and inactions, Huck relapses
-            <hr>
-            <h4>Analysis</h4>
-            Huck’s moral compass is proven to go awry at times. Where it guides him towards the right direction, but the right actions don’t always precipitate outwards. His actions are sometimes diverted through his Marxist wants. He sometimes just looks at the check, instead of understanding the circumstances that lead to the bottom line. It is easy to fall back onto the Marxist ideology as it is well defined and not as challenging as following your morals. “When I start in to steal a n*****, or a watermelon, or a Sunday-school book, I ain’t no ways particular how it’s done so it’s done … and I don’t give a dead rat what the authorities thinks about it nuther” (246). Huck falls back onto the capitalist view in this quote, only caring about economic benefit he stands to gain as a result of his work.
-        ]]></description>
-		<LookAt>
-            <longitude>-91.133432</longitude>
-            <latitude>33.388537</latitude>
-			<altitude>2.699458087275116</altitude>
-			<heading>0</heading>
-			<tilt>0</tilt>
-			<gx:fovy>30</gx:fovy>
-			<range>87346.90279402539</range>
-			<altitudeMode>absolute</altitudeMode>
-		</LookAt>
-		<styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-		<Point>
-			<altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-91.133432,33.388537,0</coordinates>
-		</Point>
-	</Placemark>
-    <Placemark id="pin18">
-        <name>Phelps' Farm</name>
-        <gx:mid>/m/0f2tj</gx:mid>
-        <gx:fid>0x8620a454b2118265:0xdb065be85e22d3b4</gx:fid>
-        <description><![CDATA[
-            Huck’s moral compass is easily misdirected by Tom Sawyer’s influence. Although Jim’s escape from captivity could have been as simple as slipping off a chain, Tom insists that Jim’s escape would only be honorable if there were “a lot of difficulties and dangers” (238). Tom goes on to suggest absurd escape plans for Jim, which Huck initially refutes as being unnecessary. However, Tom wears out Huck, who concedes and tells Tom to “fix it your own way” (241). Huck goes on to help Tom in coercing Jim to perform strenuous tasks to “earn” his freedom (246-250).
-        ]]></description>
-        <LookAt>
-            <longitude>-91.129936</longitude>
-            <latitude>33.376815</latitude>
-            <altitude>2.699458087275116</altitude>
-            <heading>0</heading>
-            <tilt>0</tilt>
-            <gx:fovy>30</gx:fovy>
-            <range>87346.90279402539</range>
-            <altitudeMode>absolute</altitudeMode>
-        </LookAt>
-        <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-        <Point>
-            <altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-91.129936,33.376815,0</coordinates>
-        </Point>
-    </Placemark>
-    <Placemark id="pin19">
-        <name>Phelps' Farm</name>
-        <gx:mid>/m/0f2tj</gx:mid>
-        <gx:fid>0x8620a454b2118265:0xdb065be85e22d3b4</gx:fid>
-        <description><![CDATA[
-            During their escape, Tom was shot in his calf. Although Tom thought the bullet was cool, Jim was insistent that Tom see a doctor for his health, because that is what Tom or Huck would have done for him. Huck rationalized Tom’s compassion by stating “I knowed he was white inside, and I reckoned he’d say what he did say -- so it was all right now” (276). Huck abided by societal norms which dictated that only whiteness can have a positive connotation. A norm which explained that if an individual was a good person, it could only be because they were white inside.
-        ]]></description>
-        <LookAt>
-            <longitude>-91.129936</longitude>
-            <latitude>33.376815</latitude>
-            <altitude>2.699458087275116</altitude>
-            <heading>0</heading>
-            <tilt>0</tilt>
-            <gx:fovy>30</gx:fovy>
-            <range>87346.90279402539</range>
-            <altitudeMode>absolute</altitudeMode>
-        </LookAt>
-        <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-        <Point>
-            <altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-91.129936,33.376815,0</coordinates>
-        </Point>
-    </Placemark>
-    <Placemark id="pin20">
-        <name>Phelps' Farm</name>
-        <gx:mid>/m/0f2tj</gx:mid>
-        <gx:fid>0x8620a454b2118265:0xdb065be85e22d3b4</gx:fid>
-        <description><![CDATA[
-            As compensation for the violence that Huck and Tom forced Jim to endure while in captivity, Tom gave “Jim forty dollars for being prisoner for us so patient, and doing it up so good” (293). Huck’s obvious excitement from this exchange suggests that he still bought into the capitalist idea that any wrongdoing could be compensated with money. This mindset justified Huck and Tom’s acts of gratuitous violence against Jim.
-        ]]></description>
-        <LookAt>
-            <longitude>-91.129936</longitude>
-            <latitude>33.376815</latitude>
-            <altitude>2.699458087275116</altitude>
-            <heading>0</heading>
-            <tilt>0</tilt>
-            <gx:fovy>30</gx:fovy>
-            <range>87346.90279402539</range>
-            <altitudeMode>absolute</altitudeMode>
-        </LookAt>
-        <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
-        <Point>
-            <altitudeMode>relativeToGround</altitudeMode>
-            <coordinates>-91.129936,33.376815,0</coordinates>
-        </Point>
-    </Placemark>
-</Document>
+        
+        <Style id="__managed_style_250D175E37029388C6AD">
+            <IconStyle>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>https://earth.google.com/clientassets/pin_myplaces_selected_128px.png</href>
+                </Icon>
+                <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+            </IconStyle>
+            <LabelStyle>
+            </LabelStyle>
+            <BalloonStyle>
+                <gx:displayMode>card</gx:displayMode>
+            </BalloonStyle>
+            <LineStyle>
+                <color>ff000000</color>
+                <width>1.8</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>4c000000</color>
+            </PolyStyle>
+        </Style>
+        <Style id="__managed_style_17D7BB0397029388C6AD">
+            <IconStyle>
+                <Icon>
+                    <href>https://earth.google.com/clientassets/pin_myplaces_selected_128px.png</href>
+                </Icon>
+                <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+            </IconStyle>
+            <LabelStyle>
+            </LabelStyle>
+            <BalloonStyle>
+                <gx:displayMode>card</gx:displayMode>
+            </BalloonStyle>
+            <LineStyle>
+                <color>ff000000</color>
+                <width>1.2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>4c000000</color>
+            </PolyStyle>
+        </Style>
+        <StyleMap id="__managed_style_0EE442986E029388C6AD">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#__managed_style_17D7BB0397029388C6AD</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#__managed_style_250D175E37029388C6AD</styleUrl>
+            </Pair>
+        </StyleMap>
+        
+        
+        
+        <!-- Animation -->
+        <gx:Tour>
+            <name>Play</name>
+            <gx:Playlist>
+                
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.391685</longitude>
+                        <latitude>39.7128634</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin1">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <LookAt>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                        <longitude>-91.334612</longitude>
+                        <latitude>39.706579</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin2">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <LookAt>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                        <longitude>-89.425964</longitude>
+                        <latitude>37.408696, </latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin3">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <LookAt>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                        <longitude>-89.448057</longitude>
+                        <latitude>37.176358</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin4">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <LookAt>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                        <longitude>-89.160618</longitude>
+                        <latitude>36.974103</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin5">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-89.102079</longitude>
+                        <latitude>36.943466</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin6">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-89.105991</longitude>
+                        <latitude>36.929499</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin7">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-89.562557</longitude>
+                        <latitude>36.526874</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin8">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-90.577155</longitude>
+                        <latitude>34.731613</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin9">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-90.574077</longitude>
+                        <latitude>34.671631</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin10">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.106963</longitude>
+                        <latitude>33.469556</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin11">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                <gx:FlyTo>
+                    <gx:duration>0.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.106963</longitude>
+                        <latitude>33.469556</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin12">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>0.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.106963</longitude>
+                        <latitude>33.469556</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin13">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.132934</longitude>
+                        <latitude>33.398383</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin14">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>0.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.132934</longitude>
+                        <latitude>33.398383</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin15">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.133432</longitude>
+                        <latitude>33.388537</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin16">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>0.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.133432</longitude>
+                        <latitude>33.388537</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin17">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>5.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.129936</longitude>
+                        <latitude>33.376815</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin18">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>0.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.129936</longitude>
+                        <latitude>33.376815</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin19">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+                <gx:FlyTo>
+                    <gx:duration>0.0</gx:duration>
+                    <!-- bounce is the default flyToMode -->
+                    <LookAt>
+                        <longitude>-91.129936</longitude>
+                        <latitude>33.376815</latitude>
+                        <altitude>0</altitude>
+                        <heading>0</heading>
+                        <tilt>30</tilt>
+                        <range>5000</range>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                    </LookAt>
+                </gx:FlyTo>
+                
+                <gx:AnimatedUpdate>
+                    <gx:duration>0.0</gx:duration>
+                    <Update>
+                        <targetHref/>
+                        <Change>
+                            <Placemark targetId="pin20">
+                                <gx:balloonVisibility>1</gx:balloonVisibility>
+                            </Placemark>
+                        </Change>
+                    </Update>
+                </gx:AnimatedUpdate>
+                
+                <gx:TourControl>
+                    <gx:playMode>pause</gx:playMode>
+                </gx:TourControl>
+                
+            </gx:Playlist>
+        </gx:Tour>
+        
+        <!-- Placemarks -->
+        
+        
+        <!-- Hannibal, MO -->
+        <Placemark id="pin1">
+            <name>St. Petersburg, MO</name>
+            <gx:mid>/m/013h3h</gx:mid>
+            <gx:fid>0x87dde8a4093156f5:0x9a8b4e4e76ebaa3c</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Huck's Story begins in the town of St. Petersburg, and picks up soon after the events of Mark Twain's <i>The Adventures of Tom Sawyer</i>.
+                <hr>
+                <h4>Analysis</h4>
+                The society of St. Petersburg is driven by a caricatured capitalist society, divided into distinct classes. Within a society segmented amongst different roles, Huckleberry Finn merely remains complacent in the ongoings of Petersburg. The widow attempts to “sivilize” Huck, while Pap is scornful of education and the upper class (Twain 1, 19). Even as members of separate social strata are driven by separate capitalist desires, and reflect classist distinctions, Huck plays neither a role in the class struggle, nor opposes it. Indeed, in the beginning of the novel, Huck is perfectly happy to remain passive and complacent in his capitalist society.
+            ]]></description>
+            <LookAt>
+                <longitude>-91.391685</longitude>
+                <latitude>39.7128634</latitude>
+                <altitude>150</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>900</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.391685,39.7128634,0</coordinates>
+            </Point>
+        </Placemark>
+        
+        <!-- Pearl's Island -->
+        <Placemark id="pin2">
+            <name>Jackson&apos;s Island</name>
+            <gx:mid>/g/1v8gcl6n</gx:mid>
+            <gx:fid>0x87dde6ec270c0fcf:0x35f35f9a29911e4f</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                After faking his own death, Huck Finn flees to Jackson's Island before he soon encounters the runaway slave: Jim.
+            ]]></description>
+            <LookAt>
+                <longitude>-91.334612</longitude>
+                <latitude>39.706579</latitude>
+                <altitude>142.0917938286331</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>864.5420543051794</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.334612,39.706579,0</coordinates>
+            </Point>
+        </Placemark>
+        
+        <Placemark id="pin3">
+            <name>Wreck of the Walter Scott</name>
+            <gx:mid>/m/04b1sw1</gx:mid>
+            <gx:fid>0x887783b327cc8707:0x88d263046d4ec679</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Huck and Jim discover the wreck of a steamboat: The Walter Scott. While exploring the wreck, Huck realizes that there are several robbers onboard the stranded boat.
+                <hr>
+                <h4>Analysis</h4>
+                Huck shows a level of sympathy to the lowest classes as if there is an implied class distinction. Huck worries, “I begun to think how dreadful it was, even for murderers, to be in such a fix. I says to myself, there ain’t no telling but I might come to be a murderer myself yet, and then how would I like it?” (72) Through his concern, Huck displays the bourgeoisie's patronizing behavior toward the proletariat.  However, Huck’s motivation is not economic, selfish, or self-indulgent.  Huck’s behavior goes against Marxist descriptions of society. He ends up rationalizing his decision and sympathizing with a class of people that society’s social constructs would deem inferior.
+                
+            ]]></description>
+            <LookAt>
+                <longitude>-89.425964</longitude>
+                <latitude>37.408696, </latitude>
+                <altitude>107.6863508440202</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>4710.823045672599</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-89.425964,37.408696,0</coordinates>
+            </Point>
+        </Placemark>
+        
+        <Placemark id="pin4">
+            <name>Walter Scott - Cairo, IL</name>
+            <gx:mid>/g/1v8gcl6n</gx:mid>
+            <gx:fid>0x87dde6ec270c0fcf:0x35f35f9a29911e4f</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Soon after leaving the Wreck of the Walter Scott, the duo begin discussing whether King Solomon was a wise man.
+                <hr>
+                <h4>Analysis</h4>
+                Even as Huck is confronted with the folly of capitalist society, he clings to the dogmatic teachings of the widow. When Jim questions the wisdom of King Solomon, Huck almost instinctively responds that “he was the wisest… because the widow told me so“ (77). Huck’s compliance with authority, in the form of the widow’s teachings, leads directly to his passivity towards capitalist class structures. Huck’s unquestioning acceptance of the widow’s lessons, which encourage blind trust in the exploitative bourgeoisie, demonstrate Huck’s initial submission to the classist status quo.
+            ]]></description>
+            <LookAt>
+                <longitude>-89.448057</longitude>
+                <latitude>37.176358</latitude>
+                <altitude>142.0917938286331</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>864.5420543051794</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-89.448057,37.176358,0</coordinates>
+            </Point>
+        </Placemark>
+        
+        <Placemark id="pin5">
+            <name>Cairo, IL – Grangerfords'</name>
+            <gx:mid>/m/0s2_t</gx:mid>
+            <gx:fid>0x8879d4ad5aa83299:0x2a6e960bc9470c97</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                After Jim and Huck get separated in thick fog, Huck pranks Jim. The location is not entirely clear, but the story implies that Huck and Jim are passing Cairo.
+                <hr>
+                <h4>Analysis</h4>
+                Due to the Marxist class structure evident in society between blacks and whites, Huck feels embarrassed to even apologize to Jim, a black man. The mere hint of equalization of power and respect between the two classes or the breakdown of the social hierarchy in place at the time bring him great difficulty and pain. Huck himself feels embarrassment, saying “It was fifteen minutes before I could work myself up to go and humble myself to a n*****” (86). The classist distinction between people based on just their skin color is enough to view this quote through a Marxist lens. Huck feels bad for playing a joke on someone he considers as inferior to him, and demonstrates the benevolence the bourgeoisie can uniquely provide to the proletariat. The bourgeoisie use this benevolence to maintain the social hierarchy by appeasing the proletariat in the short run.  The bourgeoisie deliberately shows the least possible amount of compassion as to suppress the chances of an uprising.
+                
+            ]]></description>
+            <LookAt>
+                <longitude>-89.160618</longitude>
+                <latitude>36.974103</latitude>
+                <altitude>145.1854613658972</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>10044.55247175601</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-89.160618,36.974103,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin6">
+            <name>Cairo, IL – Grangerfords'</name>
+            <gx:mid>/m/0w_0v</gx:mid>
+            <gx:fid>0x88782db03d7c8ed1:0x9fdeeae58ceffd44</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Huck and Jim are still likely somewhere in between Cairo and the Grangerfords'
+                <hr>
+                <h4>Analysis</h4>
+                Huck’s first confrontation with his flawed social order, and the first of what Keith Nielson called his “critical decision[s],” comes only a quarter of the way into his journey (Nielson xiii). In a decision that parallels Huck’s moral climax, Huck decides to conform to social expectations and turn Jim in. Before he reluctantly decides he “<i>got</i> to do it,” Huck confronts his internal moral struggle (89). Huck’s new moral complexity is not yet fully realized; he fails to reject the corruption of the capitalist consciousness and stand by his moral convictions. However, Huck’s moral journey follows his journey down the Mississippi, and when he once again confronts the same question, he is no longer beholden to classist moral distinctions.
+            ]]></description>
+            <LookAt>
+                <longitude>-89.102079</longitude>
+                <latitude>36.943466</latitude>
+                <altitude>105.3604642749995</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>1987.013002605355</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-89.102079,36.943466,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin7">
+            <name>Cairo, IL – Grangerfords'</name>
+            <gx:mid>/m/0s2zq</gx:mid>
+            <gx:fid>0x8879c6ace405f89f:0x1ea46c834803db68</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Huck's particular statement, that <i>“What’s the use you learning to do right and ain’t no trouble to do wrong, and the wages is just the same,”</i> is made soon after the events of the last pin (91).
+                <hr>
+                <h4>Analysis</h4>
+                Huck’s decision making is based on what brings him the most profit, regardless of whether “wage” implies money or personal gain. He prioritizes capitalistic gain over moral reasoning.  Huck tries to rationalize his actions, “What’s the use you learning to do right and ain’t no trouble to do wrong, and the wages is just the same” (91). Marx proposes a theoretical system of capitalism to be non-ideal. Huck’s actions follow this capitalist view, favoring money and material gain over ethics and morals.
+            ]]></description>
+            <LookAt>
+                <longitude>-89.105991</longitude>
+                <latitude>36.929499</latitude>
+                <altitude>100.0019883503486</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>40272.71710836353</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-89.105991,36.929499,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin8">
+            <name>Grangerfords' – Pokeville, AR</name>
+            <gx:mid>/m/0tf50</gx:mid>
+            <gx:fid>0x887997f4ddde73c7:0x885d4f7d589c2a64</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Huck and Jim have only recently departed the Grangerfords' when they encounter the Duke and the King.
+                <hr>
+                <h4>Analysis</h4>
+                In the beginning of the novel, Huck demonstrates his complete acceptance of classist, exploitative capitalist societies. Immediately after ‘discovering’ that the two strangers they meet are nobility, “Jim and [Huck] set to majestying [them]” (124). Even after he recognizes that the so-called Duke and King are “rapscallions” and charlatans that “couldn’t [be told] from the real kind,” Huck sees no harm in remaining subservient to the so-called Duke and King (154, 155). Huck feels obligated to remain obedient to the bourgeoisie, even a fraudulent member. In acting in such a complaisant manner, Huck furthers the class divide and permits bourgeoisie exploitation. However, as we see, Huck’s evolving complexity and conviction are intrinsically tied to the actions of the Duke and the King.
+            ]]></description>
+            <LookAt>
+                <longitude>-89.562557</longitude>
+                <latitude>36.526874</latitude>
+                <altitude>130.2945880787896</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>4764.59283617944</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-89.562557,36.526874,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin9">
+            <name>Pokeville, AR</name>
+            <gx:mid>/m/0tdnd</gx:mid>
+            <gx:fid>0x887909765e58449f:0x88a7be7d092f7c03</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                The shooting of Boggs by Shepburn occurs in the city of Pokeville.
+                <hr>
+                <h4>Analysis</h4>
+                When we view the society that the book presents through a Marxist lens, the clearly defined class structure is apparent in all aspects of life. Huck defends his passive actions towards the upper class, contending “I coulda’ stayed if I wanted to, but I didn’t want to” (147). Sherburn’s higher social class makes Huck afraid to stand up to him and demonstrates the great amount of inequality between classes. Sherburn represents the bourgeoisie, and Huck the proletariat. The bourgeoisie have a great ability to influence and manipulate the proletariat. The dismissive and outward-blaming thought process outlined in the quote represents the justification that many members of the proletariat class have for the bourgeoisie’s exploitation and class distinction of society.
+            ]]></description>
+            <LookAt>
+                <longitude>-90.577155</longitude>
+                <latitude>34.731613</latitude>
+                <altitude>110.8960270362743</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>10129.96569455018</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-90.577155,34.731613,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin10">
+            <name>Pokeville, AR – Wilks House</name>
+            <gx:mid>/m/0wy96</gx:mid>
+            <gx:fid>0x8878f78a552aaeff:0x96db7c0d3227b42c</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Soon after departing Pokeville, Jim calls the Duke and the King nothing but <i>"rapscallions" </i> (154).
+                <hr>
+                <h4>Analysis</h4>
+                Marxist theory shows a large disconnect between the proletariat and bourgeoisie. As a result, contempt builds up between the two parties from the inherently unequal ground that they stand on.  Huck shows a low opinion of the bourgeoisie, claiming that “you couldn’t tell [the Duke and Dauphin] from the real kind” of royalty (155).  Huck believes that the real bourgeoisie are just as fraudulent as the Duke and Dauphin.  Huck does not take real action against the Duke and Dauphin, and claims that the reason is that “it wouldn’t ‘a’ done no good” (155). In reality, Huck’s morality has not developed enough for him to take a strong stance against their fraud.
+            ]]></description>
+            <LookAt>
+                <longitude>-90.574077</longitude>
+                <latitude>34.671631</latitude>
+                <altitude>93.58584470953306</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>10126.9128359534</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-90.574077,34.671631,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin11">
+            <name>Wilks House</name>
+            <gx:mid>/m/0c_m3</gx:mid>
+            <gx:fid>0x87d57e1eea439745:0xd193f315601ab6fe</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Upon arriving at the Wilks' House, the Duke and Dauphin begin acting like the brothers of a dead man.
+                <hr>
+                <h4>Analysis</h4>
+                The Duke and Dauphin are the ultimate capitalists -- they create a new con at every town they visit, ignoring whether or not their schemes are morally acceptable.  The Duke and Dauphin demonstrate how capitalism makes people prioritize economic profit far more than morality.  Huck is mortified by their acts, remarking “. . . It was enough to make a body ashamed of the human race” (163), However, Huck does not act out in opposition.  Huck’s moral compass is still developing, and though he recognizes the Duke and Dauphin’s immorality he has not yet developed enough to act in defiance.
+                
+            ]]></description>
+            <LookAt>
+                <longitude>-91.106963</longitude>
+                <latitude>33.469556</latitude>
+                <altitude>91.92396231724148</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>82516.08129289583</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.106963,33.469556,0</coordinates>
+            </Point>
+        </Placemark>
+        <!-- Walnut Bend, AR -->
+        <Placemark id="pin12">
+            <name>Wilks House</name>
+            <gx:mid>/g/1tl7p7nd</gx:mid>
+            <gx:fid>0x87d527a9c58ad57f:0x5e934689de626725</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                The company is still at the Wilks' estate.
+                <hr>
+                <h4>Analysis</h4>
+                The Duke and the Dauphin’s values rest solely on economic profit. They conform to capitalistic characteristics, realizing the risk of continuing what they have been doing, but are far too tempted by the riches of the estate to leave.  When the Duke suggests leaving, the Dauphin exclaims “‘What! And not sell out the rest o’ the property” (177)? The two do consider that the auction will not harm the family economically, but their main concern is their own economic gain.  Despite the riches they have swindled from the family, the Duke and Dauphin are too greedy to be content and must press for more.
+                
+            ]]></description>
+            <LookAt>
+                <longitude>-91.106963</longitude>
+                <latitude>33.469556</latitude>
+                <altitude>53.16205820965375</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>4928.374676689619</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.106963,33.469556,0</coordinates>
+            </Point>
+        </Placemark>
+        
+        <!-- Napoleon AR -->
+        <Placemark id="pin13">
+            <name>Wilks House</name>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Huck manages to escape an angry mob after they discover gold in Wilks' coffin.
+                <hr>
+                <h4>Analysis</h4>
+                After the mob sees the bag of gold in the coffin, they forget about their prisoners and “give a big surge to bust [their] way in and get a look” (204).  Their interest in the money reflects classic Marxism; people are only motivated by economic factors.  Huck’s captors forget about all else upon seeing the gold, which allows Huck, the Duke, and the Dauphin to make a quick escape.  Huck experiences more and more of others’ Marxism throughout his journey as questions his moral foundations and the economic factors that influence others.
+            ]]></description>
+            <LookAt>
+                <longitude>-91.106963</longitude>
+                <latitude>33.469556</latitude>
+                <altitude>45.53052390440258</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>941.409848260021</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.106963,33.469556,0</coordinates>
+            </Point>
+        </Placemark>
+        <!-- Greenville -->
+        <Placemark id="pin14">
+            <name>Near Pikesville, AR</name>
+            <gx:mid>/m/0ws0h</gx:mid>
+            <gx:fid>0x862befcdb7aec9fb:0x5e8e481acf45111</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                Huck soon discovers after landing at Pikesville, that the Duke and the King turned Jim in for forty dollars.
+                <hr>
+                <h4>Analysis</h4>
+                In the beginning of the novel, Huck makes no judgement of Pap, nor of the capitalist motivations of Pap’s actions. However, after a majority of his journey, Huck is no longer lenient with the characters who most parallel Pap – the Duke and the King. Instead, Huck not only feels vindictive towards “them scoundrels” for selling Jim, but also because they sold him for “forty dirty dollars” (212). While Huck is initially complaisant in capitalist society, he grows to despise the cruel actions it motivates others to perpetrate. It is quite poignant that Huck puts such emphasis on the money for which the Duke and the King exchanged Jim.
+            ]]></description>
+            <LookAt>
+                <longitude>-91.132934</longitude>
+                <latitude>33.398383</latitude>
+                <altitude>41.46499149711459</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>42118.33696684459</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.132934,33.398383,0</coordinates>
+            </Point>
+        </Placemark>
+        <!-- Grand Lake Landing -->
+        <Placemark id="pin15">
+            <name>Near Pikesville, AR</name>
+            <gx:mid>/g/1tj73zfy</gx:mid>
+            <gx:fid>0x862b87c6d8035925:0xff7ea0b7d1f1b2aa</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                After attempting to write a letter to Miss Watson, Huck decided to <i> "go to hell"</i> instead of turn Jim in (214).
+                <hr>
+                <h4>Analysis</h4>
+                Huck reaches the climax of his moral journey when he tears up the note to Miss Watson.  Huck’s journey has seen Huck both bowing down to society’s capitalist desires and fighting back, and in the climax Huck decides that he must follow his moral compass at any cost.  Saying “All right, then, I’ll go to hell,” Huck shows that the relationship he has built with Jim is worth more to him than avoiding any punishment (214).  Clearly, Huck is influenced by the Marxist society he lives in.  However, after developing somewhat in his moral journey, Huck makes a momentary decision to value the people closest to him more than the Marxist view that his racial or social class is superior to another.
+            ]]></description>
+            <LookAt>
+                <longitude>-91.132934</longitude>
+                <latitude>33.398383</latitude>
+                <altitude>44.10313405219888</altitude>
+                <heading>0</heading>
+                <tilt>45</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>943.4464661971114</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.132934,33.398383,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin16">
+            <name>Pikesville, AR</name>
+            <gx:mid>/m/0fvvz</gx:mid>
+            <gx:fid>0x86243867325f74cb:0x2123f1db91579a1d</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                After commiting one con too many, the Duke and the Dauphin are tarred and feathered by the people of Pikeville.
+                <hr>
+                <h4>Analysis</h4>
+                Huck is disgusted by the Duke and Dauphin’s money making schemes, the latest of which involves selling Jim. However, as the two con men are tarred and feathered by enraged townspeople following another bluff, Huck’s resentment fades. “Human beings can be awful cruel to one another” he remarks (231). The Duke and Dauphin, the bourgeois, manipulate Huck, the proletariat. Huck should feel fuel for his eternal conflict with the upper class, yet he instead feels sympathy, and determines that all humans, regardless of class, can be awful to each other.
+            ]]></description>
+            <LookAt>
+                <longitude>-91.133432</longitude>
+                <latitude>33.388537</latitude>
+                <altitude>16.45970777571112</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>86984.67998555623</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.133432,33.388537,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin17">
+            <name>Pikesville, AR</name>
+            <gx:mid>/m/0f2tj</gx:mid>
+            <gx:fid>0x8620a454b2118265:0xdb065be85e22d3b4</gx:fid>
+            <description><![CDATA[
+                <h4>Background</h4>
+                From this point forward, in a series of complacent and passive actions and inactions, Huck relapses
+                <hr>
+                <h4>Analysis</h4>
+                Huck’s moral compass is proven to go awry at times, and often falls prey to his ultimately stronger Marxist tendencies. His actions are sometimes diverted through his Marxist wants. Huck sometimes simply looks at the check, instead of understanding the circumstances that lead to the bottom line. Huck finds it easy to fall into Marxist tendencies, as the goal of money is well defined and easier than following his own morals. Huck realizes, “When I start in to steal a n*****, or a watermelon, or a Sunday-school book, I ain’t no ways particular how it’s done so it’s done … and I don’t give a dead rat what the authorities thinks about it nuther” (246). Huck falls back onto the classic capitalist view in this quote, only caring about economic benefit he stands to gain as a result of his work.
+            ]]></description>
+            <LookAt>
+                <longitude>-91.133432</longitude>
+                <latitude>33.388537</latitude>
+                <altitude>2.699458087275116</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>87346.90279402539</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.133432,33.388537,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin18">
+            <name>Phelps' Farm</name>
+            <gx:mid>/m/0f2tj</gx:mid>
+            <gx:fid>0x8620a454b2118265:0xdb065be85e22d3b4</gx:fid>
+            <description><![CDATA[
+                Huck’s moral compass is easily misdirected by Tom Sawyer’s influence. Although Jim’s escape from captivity would be as simple as slipping off a chain, Tom insists that Jim’s escape would only be honorable if there were “a lot of difficulties and dangers” (238). Tom goes on to suggest absurd escape plans for Jim, which Huck initially refutes as unnecessary. However, Tom wears down Huck, who concedes and tells Tom to “fix it [his] own way” (241). Huck goes on to help Tom in coercing Jim to perform strenuous tasks to “earn” his freedom (246-250).
+            ]]></description>
+            <LookAt>
+                <longitude>-91.129936</longitude>
+                <latitude>33.376815</latitude>
+                <altitude>2.699458087275116</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>87346.90279402539</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.129936,33.376815,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin19">
+            <name>Phelps' Farm</name>
+            <gx:mid>/m/0f2tj</gx:mid>
+            <gx:fid>0x8620a454b2118265:0xdb065be85e22d3b4</gx:fid>
+            <description><![CDATA[
+                During Tom, Jim, and Huck’s escape, Tom is shot in the calf. Although Tom thinks the bullet is cool, Jim insists that Tom see a doctor for his health, because that is what Tom or Huck would have done for him.  Huck rationalizes Jim’s compassion by stating “I knowed he was white inside, and I reckoned he’d say what he did say -- so it was all right now” (276). Huck abides by societal norms, which dictate that only whiteness can have a positive connotation. Class structures dictate that if an individual is a good person, it is only because they are white inside.
+            ]]></description>
+            <LookAt>
+                <longitude>-91.129936</longitude>
+                <latitude>33.376815</latitude>
+                <altitude>2.699458087275116</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>87346.90279402539</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.129936,33.376815,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="pin20">
+            <name>Phelps' Farm</name>
+            <gx:mid>/m/0f2tj</gx:mid>
+            <gx:fid>0x8620a454b2118265:0xdb065be85e22d3b4</gx:fid>
+            <description><![CDATA[
+                Huck recognizes that prolonging Jim’s captivity mandates compensation, but in a twisted way. He remarks that “Tom give Jim forty dollars for being prisoner for us so patient, and doing it up so good” (293). Huck fails to recognize that Jim’s freedom is more serious than just a game. Huck also buys into the capitalist idea that any wrongdoing can be compensated with money, which justifies his and Tom’s acts of gratuitous violence against Jim.
+            ]]></description>
+            <LookAt>
+                <longitude>-91.129936</longitude>
+                <latitude>33.376815</latitude>
+                <altitude>2.699458087275116</altitude>
+                <heading>0</heading>
+                <tilt>0</tilt>
+                <gx:fovy>30</gx:fovy>
+                <range>87346.90279402539</range>
+                <altitudeMode>absolute</altitudeMode>
+            </LookAt>
+            <styleUrl>#__managed_style_0EE442986E029388C6AD</styleUrl>
+            <Point>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>-91.129936,33.376815,0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
 </kml>
+
+
